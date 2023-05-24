@@ -99,7 +99,7 @@ typedef struct alias_s
 
 void ric_handle_line(char **line, ssize_t read);
 int ric_cant_open(char *file_path);
-void variable_replacement(char **args, int *exe_ret);
+void ric_variable_replacement(char **args, int *exe_ret);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 void ric_assign_lineptr(char **lineptr, size_t *n, char *buffer, size_t b);
 void ric_help_all(void);
