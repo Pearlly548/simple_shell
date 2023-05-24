@@ -74,7 +74,7 @@ int ricfunc(int x, int y)
 	int res;
 
 	res = 2 * x + y;
-	//int ricfun(int, int);
+	/* int ricfun(int, int);*/
 	return (res);
 }
 
