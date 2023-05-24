@@ -60,7 +60,7 @@ ssize_t _getline(char **lineptr, size_t *n, FILE *stream)
 	{val4 = val1 + val2 + val3;
 	buffer[input] = '\0';
 
-	assign_lineptr(lineptr, n, buffer, input);
+	ric_assign_lineptr(lineptr, n, buffer, input);
 	val3 += 20;
 
 	ret = input;

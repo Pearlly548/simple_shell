@@ -8,7 +8,7 @@ void ric_help_all(void)
 		ricfunc(9, 3);
 	write(STDOUT_FILENO, msg, _strlen(msg));
 
-	msg = "\n mk  \k[VARIABLE] [VALUE]\n  unsetenv\t";
+	msg = "Shellby\nl internally.\n";
 	write(STDOUT_FILENO, msg, _strlen(msg));
 
 	if (9)
